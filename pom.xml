@@ -6,31 +6,31 @@
   <name>demoa</name>
   <description>demoa</description>
   
-<!--   sureXmlFiles for testng -->
-<!--   <build> -->
-<!--      <plugins> -->
-<!--          <plugin> -->
-<!--             <artifactId>maven-surefire-plugin</artifactId> -->
-<!--             <version>2.10</version> -->
-<!--             <configuration> -->
-<!--               <excludes> -->
-<!--                   <exclude>TestModule3/TestMutipleThreads.java</exclude> -->
-<!--                   <exclude>TestModule2/TestJavaInPom.java</exclude> -->
-<!--                </excludes> -->
+ <!--    sureXmlFiles for testng-->
+  <build>
+     <plugins>
+         <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.10</version>
+            <configuration>
+              <excludes>
+                  <exclude>TestModule3/TestMutipleThreads.java</exclude>
+                  <exclude>TestModule2/TestJavaInPom.java</exclude>
+               </excludes>
             
-<!--                 <sureXmlFiles> -->
-<!--                     <sureXmlFile> -->
-<!--                          ${project.basedir}/src/test/java/TestModule1/TestMavenSureFirePlugin.xml -->
-<!--                     </sureXmlFile> -->
+                <sureXmlFiles>
+                    <sureXmlFile>
+                         ${project.basedir}/src/test/java/TestModule1/TestMavenSureFirePlugin.xml
+                    </sureXmlFile>
                     
                     
                     
-<!--                 </sureXmlFiles> -->
-<!--             </configuration> -->
+                </sureXmlFiles>
+            </configuration>
             
-<!--          </plugin> -->
-<!--      </plugins> -->
-<!--   </build> -->
+         </plugin>
+     </plugins>
+  </build>
   
   
   
@@ -66,7 +66,7 @@
   
   
   
-    <!-- mutiple threads for testng -->
+<!--     mutiple threads for testng -->
 <!--     <build> -->
 <!--      <plugins> -->
 <!--          <plugin> -->
@@ -94,22 +94,22 @@
   
   
   
-<build>
-     <plugins>
-         <plugin>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.10</version>
-            <configuration>
-                <includes>
-                    <include>
-                    TestModule5/TestFireFlyAtuomation.java
-                    </include>
-                </includes>
-            </configuration>
+<!-- <build> -->
+<!--      <plugins> -->
+<!--          <plugin> -->
+<!--             <artifactId>maven-surefire-plugin</artifactId> -->
+<!--             <version>2.10</version> -->
+<!--             <configuration> -->
+<!--                 <includes> -->
+<!--                     <include> -->
+<!--                     TestModule5/TestFireFlyAtuomation.java -->
+<!--                     </include> -->
+<!--                 </includes> -->
+<!--             </configuration> -->
             
-         </plugin>
-     </plugins>
-  </build>
+<!--          </plugin> -->
+<!--      </plugins> -->
+<!--   </build> -->
   
   
 
