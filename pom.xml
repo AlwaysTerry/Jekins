@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.alwaysterry</groupId>
+  <artifactId>demoa</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>demoa</name>
+  <description>demoa</description>
+  
+<!--   sureXmlFiles for testng -->
+<!--   <build> -->
+<!--      <plugins> -->
+<!--          <plugin> -->
+<!--             <artifactId>maven-surefire-plugin</artifactId> -->
+<!--             <version>2.10</version> -->
+<!--             <configuration> -->
+<!--               <excludes> -->
+<!--                   <exclude>TestModule3/TestMutipleThreads.java</exclude> -->
+<!--                   <exclude>TestModule2/TestJavaInPom.java</exclude> -->
+<!--                </excludes> -->
+            
+<!--                 <sureXmlFiles> -->
+<!--                     <sureXmlFile> -->
+<!--                          ${project.basedir}/src/test/java/TestModule1/TestMavenSureFirePlugin.xml -->
+<!--                     </sureXmlFile> -->
+                    
+                    
+                    
+<!--                 </sureXmlFiles> -->
+<!--             </configuration> -->
+            
+<!--          </plugin> -->
+<!--      </plugins> -->
+<!--   </build> -->
+  
+  
+  
+  
+  
+  
+  
+  
+<!--   java class for testng -->
+<!--     <build> -->
+<!--      <plugins> -->
+<!--          <plugin> -->
+<!--             <artifactId>maven-surefire-plugin</artifactId> -->
+<!--             <version>2.10</version> -->
+<!--             <configuration> -->
+<!--                 <includes> -->
+<!--                     <include> -->
+<!--                     TestModule2/TestJavaInPom.java -->
+<!--                     </include> -->
+<!--                 </includes> -->
+<!--             </configuration> -->
+            
+<!--          </plugin> -->
+<!--      </plugins> -->
+<!--   </build> -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!-- mutiple threads for testng -->
+<!--     <build> -->
+<!--      <plugins> -->
+<!--          <plugin> -->
+<!--             <artifactId>maven-surefire-plugin</artifactId> -->
+<!--             <version>2.10</version> -->
+<!--             <configuration> -->
+
+<!--                <excludes> -->
+<!--                   <exclude>TestModule1/TestMavenSureFirePlugin.java</exclude> -->
+<!--                   <exclude>TestModule2/TestJavaInPom.java</exclude> -->
+<!--                </excludes> -->
+
+<!--                <parallel>methods</parallel> -->
+<!--                <threadCount>3</threadCount> -->
+<!--                 <sureXmlFiles> -->
+<!--                     <sureXmlFile> -->
+<!--                          ${project.basedir}/src/test/java/TestModule1/TestMavenSureFirePlugin.xml -->
+<!--                     </sureXmlFile> -->
+<!--                 </sureXmlFiles> -->
+<!--             </configuration> -->
+            
+<!--          </plugin> -->
+<!--      </plugins> -->
+<!--   </build> -->
+  
+  
+  
+<build>
+     <plugins>
+         <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.10</version>
+            <configuration>
+                <includes>
+                    <include>
+                    TestModule5/TestFireFlyAtuomation.java
+                    </include>
+                </includes>
+            </configuration>
+            
+         </plugin>
+     </plugins>
+  </build>
+  
+  
+
+
+  
+  <dependencies>
+  
+    	<dependency>
+  		<groupId>trainingJars</groupId>
+  		<artifactId>trainingJars</artifactId>
+  		<version>1</version>
+  		<scope>system</scope>
+  		<systemPath>${project.basedir}/libs/training.jar</systemPath>
+    	</dependency>
+  
+  
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>2.40.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>FireflyAutomation</groupId>
+  		<artifactId>FireflyAutomation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>

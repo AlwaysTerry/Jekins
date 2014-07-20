@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8720" started-at="2014-07-20T05:22:25Z" finished-at="2014-07-20T05:22:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8720" started-at="2014-07-20T05:22:25Z" finished-at="2014-07-20T05:22:34Z">
+      <class name="TestModule1.TestMavenSureFirePlugin">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@31b037fe]" name="beforeClass" is-config="true" duration-ms="3303" started-at="2014-07-20T13:22:25Z" finished-at="2014-07-20T13:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="start()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@31b037fe]" name="start" duration-ms="4214" started-at="2014-07-20T13:22:28Z" finished-at="2014-07-20T13:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:TestModule1.TestMavenSureFirePlugin@31b037fe]" name="quit" is-config="true" duration-ms="1192" started-at="2014-07-20T13:22:32Z" finished-at="2014-07-20T13:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestModule1.TestMavenSureFirePlugin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
