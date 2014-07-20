@@ -33,6 +33,7 @@ public class TestMavenSureFirePlugin {
 		driver.findElement(By.xpath("//input[@id='pwdInput']")).sendKeys("Firefly");
 		driver.findElement(By.xpath("//input[@id='pwdInput']")).submit();
 		
+		
 	}
 	
 	@AfterClass
