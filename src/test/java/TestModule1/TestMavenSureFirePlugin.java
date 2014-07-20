@@ -18,7 +18,7 @@ public class TestMavenSureFirePlugin {
 	
 	@BeforeClass
 	public void beforeClass(){
-		Browsers browser = new Browsers(BrowsersType.firefox);
+		Browsers browser = new Browsers(BrowsersType.chrome);
 		driver = browser.driver;
 	}
 
