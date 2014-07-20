@@ -136,10 +136,10 @@
   		<artifactId>testng</artifactId>
   		<version>6.8.5</version>
   	</dependency>
-  	<dependency>
-  		<groupId>FireflyAutomation</groupId>
-  		<artifactId>FireflyAutomation</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+<!--   	<dependency> -->
+<!--   		<groupId>FireflyAutomation</groupId> -->
+<!--   		<artifactId>FireflyAutomation</artifactId> -->
+<!--   		<version>0.0.1-SNAPSHOT</version> -->
+<!--   	</dependency> -->
   </dependencies>
 </project>
