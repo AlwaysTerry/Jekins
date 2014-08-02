@@ -1,5 +1,7 @@
 package TestModule1;
 
+import junit.framework.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -33,7 +35,7 @@ public class TestMavenSureFirePlugin {
 		driver.findElement(By.xpath("//input[@id='pwdInput']")).sendKeys("Firefly");
 		driver.findElement(By.xpath("//input[@id='pwdInput']")).submit();
 		
-		
+		Assert.assertEquals(true, true);
 	}
 	
 	@AfterClass
