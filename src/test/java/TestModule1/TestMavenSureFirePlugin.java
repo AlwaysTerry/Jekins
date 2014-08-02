@@ -33,8 +33,7 @@ public class TestMavenSureFirePlugin {
 		driver.findElement(By.xpath("//input[@id='idInput']")).sendKeys("FireflyAutomation");
 		
 		driver.findElement(By.xpath("//input[@id='pwdInput']")).sendKeys("Firefly");
-		driver.findElement(By.xpath("//input[@id='pwdInput']")).submit();
-		
+		driver.findElement(By.xpath("//input[@id='pwdInput']")).submit();		
 		Assert.assertEquals(true, true);
 	}
 	
