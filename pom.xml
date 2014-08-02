@@ -14,10 +14,11 @@
             <version>2.10</version>
             <configuration>
               <excludes>
+              
                   <exclude>TestModule3/TestMutipleThreads.java</exclude>
                   <exclude>TestModule2/TestJavaInPom.java</exclude>
-                   <exclude>TestModule4/TestTerry.java</exclude>
-                   <exclude>TestModule5/TestFireFlyAtuomation.java</exclude>
+                  <exclude>TestModule4/TestTerry.java</exclude>
+                  <exclude>TestModule5/TestFireFlyAtuomation.java</exclude>
                </excludes>
             
                 <sureXmlFiles>
