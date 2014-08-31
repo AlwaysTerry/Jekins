@@ -25,7 +25,7 @@ public class TestMavenSureFirePlugin {
 	}
 
 	@Test
-	public void start(){
+	public void testLinkCase(){
 		
 		
 		driver.get("http://www.126.com");
